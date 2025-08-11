@@ -1,13 +1,10 @@
 # -*- coding: utf-8 -*-
-"""
-Navegador mejorado para MercadoLibre México con manejo robusto de errores
-"""
 
 import asyncio
 import logging
 import random
 from datetime import datetime
-from typing import Dict, List, Optional, Any
+from typing import  Optional
 from urllib.parse import urlparse
 from playwright.async_api import async_playwright, Browser, Page, BrowserContext, TimeoutError as PlaywrightTimeoutError
 
@@ -19,7 +16,7 @@ logger = logging.getLogger(__name__)
 
 
 class MercadoLibreBrowser:
-    """Navegador mejorado para MercadoLibre México con anti-detección"""
+   
     
     def __init__(self, config: Optional[BrowserConfig] = None):
         self.config = config or BrowserConfig()
