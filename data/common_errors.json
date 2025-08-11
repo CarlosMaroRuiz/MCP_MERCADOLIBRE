@@ -207,5 +207,25 @@
     "tool_name": "smart_search_and_extract",
     "page_type": null,
     "query_context": "laptop gamer barata"
+  },
+  "2746cecf7902": {
+    "error_id": "2746cecf7902",
+    "category": "selector",
+    "severity": "low",
+    "error_message": "Error extrayendo texto: No se encontraron elementos con selector: h2.ui-search-item__title",
+    "original_error": "ToolError",
+    "context_info": {},
+    "solution": "Usar selectores más específicos o probar selectores alternativos.",
+    "prevention_tips": [
+      "Usar discover_selectors() para encontrar selectores válidos",
+      "Probar test_selector() antes de usar un selector en extracción",
+      "Verificar que los elementos sean visibles con check_visibility=True"
+    ],
+    "frequency": 1,
+    "first_seen": "2025-08-10T20:34:27.565988",
+    "last_seen": "2025-08-10T20:34:27.565991",
+    "tool_name": "extract_text_content",
+    "page_type": null,
+    "query_context": null
   }
 }
