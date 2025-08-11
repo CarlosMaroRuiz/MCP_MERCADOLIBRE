@@ -1,0 +1,24 @@
+{
+  "search_box": [
+    {
+      "selector": "input[placeholder*=\"buscar\" i]",
+      "element_type": "search_box",
+      "confidence": 0.5,
+      "success_count": 0,
+      "failure_count": 3,
+      "last_used": "2025-08-07T23:49:07.194465",
+      "context": "discovered",
+      "region": "mx"
+    },
+    {
+      "selector": ".nav-search-input",
+      "element_type": "search_box",
+      "confidence": 0.5,
+      "success_count": 0,
+      "failure_count": 5,
+      "last_used": "2025-08-07T23:49:07.208571",
+      "context": "discovered",
+      "region": "mx"
+    }
+  ]
+}

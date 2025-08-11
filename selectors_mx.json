@@ -1,0 +1,66 @@
+{
+  "search_box": [
+    {
+      "selector": "input.nav-search-input",
+      "element_type": "search_box",
+      "confidence": 0.5,
+      "success_count": 2,
+      "failure_count": 1,
+      "last_used": "2025-08-08T00:24:40.177183",
+      "context": "discovered",
+      "discovered_by": "manual"
+    },
+    {
+      "selector": "input[placeholder*=\"Buscar productos\"]",
+      "element_type": "search_box",
+      "confidence": 0.5,
+      "success_count": 0,
+      "failure_count": 1,
+      "last_used": "2025-08-07T23:59:02.975066",
+      "context": "discovered",
+      "discovered_by": "manual"
+    },
+    {
+      "selector": ".nav-search-input",
+      "element_type": "search_box",
+      "confidence": 0.5,
+      "success_count": 0,
+      "failure_count": 1,
+      "last_used": "2025-08-07T23:59:34.689190",
+      "context": "discovered",
+      "discovered_by": "manual"
+    },
+    {
+      "selector": "input[name=\"as_word\"]",
+      "element_type": "search_box",
+      "confidence": 0.5,
+      "success_count": 0,
+      "failure_count": 1,
+      "last_used": "2025-08-08T00:00:06.370140",
+      "context": "discovered",
+      "discovered_by": "manual"
+    },
+    {
+      "selector": "#cb1-edit",
+      "element_type": "search_box",
+      "confidence": 0.5,
+      "success_count": 2,
+      "failure_count": 2,
+      "last_used": "2025-08-08T00:21:50.082642",
+      "context": "discovered",
+      "discovered_by": "manual"
+    }
+  ],
+  "product_card": [
+    {
+      "selector": ".ui-search-result__wrapper",
+      "element_type": "product_card",
+      "confidence": 0.5,
+      "success_count": 0,
+      "failure_count": 5,
+      "last_used": "2025-08-08T00:24:49.364855",
+      "context": "discovered",
+      "discovered_by": "manual"
+    }
+  ]
+}
