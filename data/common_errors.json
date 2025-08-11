@@ -1,0 +1,211 @@
+{
+  "73b0d805253c": {
+    "error_id": "73b0d805253c",
+    "category": "navigation",
+    "severity": "high",
+    "error_message": "Error extrayendo productos: No se encontraron productos en la página",
+    "original_error": "ToolError",
+    "context_info": {
+      "search_query": "laptop gamer barata",
+      "max_products": 20
+    },
+    "solution": "Verificar que la URL sea de MercadoLibre México y esté accesible.",
+    "prevention_tips": [
+      "Siempre verificar que la URL contenga 'mercadolibre.com.mx'",
+      "Esperar a que la página cargue completamente antes de continuar",
+      "Usar get_current_page_info() para verificar el estado de la página"
+    ],
+    "frequency": 2,
+    "first_seen": "2025-08-10T19:27:46.652571",
+    "last_seen": "2025-08-10T19:59:37.492090",
+    "tool_name": "smart_search_and_extract",
+    "page_type": null,
+    "query_context": "laptop gamer barata"
+  },
+  "900e4af81014": {
+    "error_id": "900e4af81014",
+    "category": "navigation",
+    "severity": "high",
+    "error_message": "Error buscando 'laptop': No se pudo encontrar la caja de búsqueda en la página",
+    "original_error": "ToolError",
+    "context_info": {},
+    "solution": "Verificar que la URL sea de MercadoLibre México y esté accesible.",
+    "prevention_tips": [
+      "Siempre verificar que la URL contenga 'mercadolibre.com.mx'",
+      "Esperar a que la página cargue completamente antes de continuar",
+      "Usar get_current_page_info() para verificar el estado de la página"
+    ],
+    "frequency": 1,
+    "first_seen": "2025-08-10T19:34:38.701106",
+    "last_seen": "2025-08-10T19:34:38.701109",
+    "tool_name": "search_products",
+    "page_type": null,
+    "query_context": "laptop"
+  },
+  "e0138de14ef5": {
+    "error_id": "e0138de14ef5",
+    "category": "navigation",
+    "severity": "high",
+    "error_message": "Error extrayendo productos: No se encontraron productos en la página",
+    "original_error": "ToolError",
+    "context_info": {},
+    "solution": "Verificar que la URL sea de MercadoLibre México y esté accesible.",
+    "prevention_tips": [
+      "Siempre verificar que la URL contenga 'mercadolibre.com.mx'",
+      "Esperar a que la página cargue completamente antes de continuar",
+      "Usar get_current_page_info() para verificar el estado de la página"
+    ],
+    "frequency": 6,
+    "first_seen": "2025-08-10T19:35:13.110654",
+    "last_seen": "2025-08-10T19:57:42.556695",
+    "tool_name": "extract_products",
+    "page_type": null,
+    "query_context": null
+  },
+  "c08ac159eb66": {
+    "error_id": "c08ac159eb66",
+    "category": "navigation",
+    "severity": "high",
+    "error_message": "Error navegando a https://www.mercadolibre.com.mx: No se pudo navegar a la URL especificada",
+    "original_error": "ToolError",
+    "context_info": {
+      "search_query": "laptop gamer barata",
+      "max_products": 20
+    },
+    "solution": "Verificar que la URL sea de MercadoLibre México y esté accesible.",
+    "prevention_tips": [
+      "Siempre verificar que la URL contenga 'mercadolibre.com.mx'",
+      "Esperar a que la página cargue completamente antes de continuar",
+      "Usar get_current_page_info() para verificar el estado de la página"
+    ],
+    "frequency": 1,
+    "first_seen": "2025-08-10T19:45:40.346711",
+    "last_seen": "2025-08-10T19:45:40.346714",
+    "tool_name": "smart_search_and_extract",
+    "page_type": null,
+    "query_context": "laptop gamer barata"
+  },
+  "03880c97bd0b": {
+    "error_id": "03880c97bd0b",
+    "category": "selector",
+    "severity": "low",
+    "error_message": "Error descubriendo selectores: Page.evaluate: Execution context was destroyed, most likely because of a navigation",
+    "original_error": "ToolError",
+    "context_info": {},
+    "solution": "Usar selectores más específicos o probar selectores alternativos.",
+    "prevention_tips": [
+      "Usar discover_selectors() para encontrar selectores válidos",
+      "Probar test_selector() antes de usar un selector en extracción",
+      "Verificar que los elementos sean visibles con check_visibility=True"
+    ],
+    "frequency": 1,
+    "first_seen": "2025-08-10T19:51:51.330645",
+    "last_seen": "2025-08-10T19:51:51.330649",
+    "tool_name": "discover_selectors",
+    "page_type": null,
+    "query_context": null
+  },
+  "89bee259d21e": {
+    "error_id": "89bee259d21e",
+    "category": "navigation",
+    "severity": "high",
+    "error_message": "Error buscando 'laptop gamer barata': No se pudo encontrar la caja de búsqueda en la página",
+    "original_error": "ToolError",
+    "context_info": {},
+    "solution": "Verificar que la URL sea de MercadoLibre México y esté accesible.",
+    "prevention_tips": [
+      "Siempre verificar que la URL contenga 'mercadolibre.com.mx'",
+      "Esperar a que la página cargue completamente antes de continuar",
+      "Usar get_current_page_info() para verificar el estado de la página"
+    ],
+    "frequency": 1,
+    "first_seen": "2025-08-10T19:56:36.285247",
+    "last_seen": "2025-08-10T19:56:36.285251",
+    "tool_name": "search_products",
+    "page_type": null,
+    "query_context": "laptop gamer barata"
+  },
+  "6170d4b4b231": {
+    "error_id": "6170d4b4b231",
+    "category": "navigation",
+    "severity": "high",
+    "error_message": "Error navegando a https://listado.mercadolibre.com.mx/laptop-gamer-barata: No se pudo navegar a la URL especificada",
+    "original_error": "ToolError",
+    "context_info": {},
+    "solution": "Verificar que la URL sea de MercadoLibre México y esté accesible.",
+    "prevention_tips": [
+      "Siempre verificar que la URL contenga 'mercadolibre.com.mx'",
+      "Esperar a que la página cargue completamente antes de continuar",
+      "Usar get_current_page_info() para verificar el estado de la página"
+    ],
+    "frequency": 1,
+    "first_seen": "2025-08-10T19:58:00.965475",
+    "last_seen": "2025-08-10T19:58:00.965481",
+    "tool_name": "navigate_to_page",
+    "page_type": null,
+    "query_context": null
+  },
+  "9ccfe49ddec5": {
+    "error_id": "9ccfe49ddec5",
+    "category": "navigation",
+    "severity": "high",
+    "error_message": "Error buscando 'laptop gamer barata': No se pudo navegar a MercadoLibre México",
+    "original_error": "ToolError",
+    "context_info": {},
+    "solution": "Verificar que la URL sea de MercadoLibre México y esté accesible.",
+    "prevention_tips": [
+      "Siempre verificar que la URL contenga 'mercadolibre.com.mx'",
+      "Esperar a que la página cargue completamente antes de continuar",
+      "Usar get_current_page_info() para verificar el estado de la página"
+    ],
+    "frequency": 1,
+    "first_seen": "2025-08-10T19:58:16.250196",
+    "last_seen": "2025-08-10T19:58:16.250204",
+    "tool_name": "search_products",
+    "page_type": null,
+    "query_context": "laptop gamer barata"
+  },
+  "82e5dbf134b2": {
+    "error_id": "82e5dbf134b2",
+    "category": "navigation",
+    "severity": "high",
+    "error_message": "Error navegando a https://www.mercadolibre.com.mx: No se pudo navegar a la URL especificada",
+    "original_error": "ToolError",
+    "context_info": {},
+    "solution": "Verificar que la URL sea de MercadoLibre México y esté accesible.",
+    "prevention_tips": [
+      "Siempre verificar que la URL contenga 'mercadolibre.com.mx'",
+      "Esperar a que la página cargue completamente antes de continuar",
+      "Usar get_current_page_info() para verificar el estado de la página"
+    ],
+    "frequency": 1,
+    "first_seen": "2025-08-10T19:58:46.247627",
+    "last_seen": "2025-08-10T19:58:46.247630",
+    "tool_name": "go_to_home",
+    "page_type": null,
+    "query_context": null
+  },
+  "cd28bb0c0769": {
+    "error_id": "cd28bb0c0769",
+    "category": "navigation",
+    "severity": "high",
+    "error_message": "Error buscando 'laptop gamer barata': No se pudo encontrar la caja de búsqueda en la página",
+    "original_error": "ToolError",
+    "context_info": {
+      "search_query": "laptop gamer barata",
+      "max_products": 10
+    },
+    "solution": "Verificar que la URL sea de MercadoLibre México y esté accesible.",
+    "prevention_tips": [
+      "Siempre verificar que la URL contenga 'mercadolibre.com.mx'",
+      "Esperar a que la página cargue completamente antes de continuar",
+      "Usar get_current_page_info() para verificar el estado de la página"
+    ],
+    "frequency": 1,
+    "first_seen": "2025-08-10T20:02:05.990585",
+    "last_seen": "2025-08-10T20:02:05.990589",
+    "tool_name": "smart_search_and_extract",
+    "page_type": null,
+    "query_context": "laptop gamer barata"
+  }
+}

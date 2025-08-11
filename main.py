@@ -33,6 +33,7 @@ def main():
         
         # Ejecutar con transporte stdio por defecto
         server.run(transport="streamable-http")
+        #server.run()
         
     except KeyboardInterrupt:
         logger.info("Servidor detenido por el usuario")
