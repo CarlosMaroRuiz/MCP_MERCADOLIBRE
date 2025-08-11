@@ -10,7 +10,7 @@ from pathlib import Path
 from typing import Dict, Any, Optional
 from fastmcp import FastMCP, Context
 
-# Importaciones existentes
+
 from browser.browser import MercadoLibreBrowser
 from browser.config import BrowserConfig
 from tools.navigation import NavigationTools
@@ -19,21 +19,20 @@ from tools.selectors import SelectorTools
 from tools.products import ProductTools
 from tools.utilities import UtilityTools
 
-# Nuevas importaciones para el sistema de errores
 from tools.error_manager import CommonErrorManager
 from tools.error_tools import ErrorLearningTools
 from tools.error_wrapper import capture_tool_errors, EnhancedErrorCapture
 
-# Crear directorio de datos si no existe
+
 Path("data").mkdir(exist_ok=True)
 
-# Configuración de logging
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
 class MercadoLibreMCPServer:
-    """Servidor MCP mejorado con aprendizaje de errores"""
+
     
     def __init__(self):
         # Inicializar sistema de errores
