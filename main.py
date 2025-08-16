@@ -32,6 +32,15 @@ def main():
         server = create_server()
         
         # Ejecutar con transporte stdio por defecto
+        host = "0.0.0.0"  # Escucha en todas las interfaces
+        port = int(8000)  # Puerto configurable
+        
+        # Ejecutar servidor
+        server.run(
+            transport="streamable-http",
+            host=host,
+            port=port
+        )
         server.run(transport="streamable-http")
         #server.run()
         

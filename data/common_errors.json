@@ -227,5 +227,23 @@
     "tool_name": "extract_text_content",
     "page_type": null,
     "query_context": null
+  },
+  "9444bf37ab16": {
+    "error_id": "9444bf37ab16",
+    "category": "unknown",
+    "severity": "medium",
+    "error_message": "",
+    "original_error": "ClosedResourceError",
+    "context_info": {},
+    "solution": null,
+    "prevention_tips": [
+      "Revisar la documentación de la herramienta."
+    ],
+    "frequency": 2,
+    "first_seen": "2025-08-11T22:02:58.151720",
+    "last_seen": "2025-08-11T22:12:35.389275",
+    "tool_name": "search_products",
+    "page_type": null,
+    "query_context": "laptops gamer económicas calidad precio"
   }
 }
