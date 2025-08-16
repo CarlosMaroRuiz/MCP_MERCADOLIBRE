@@ -3,7 +3,7 @@ name = "agent-market"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.10"
 dependencies = [
     "aiofiles>=23.0.0",
     "beautifulsoup4>=4.12.0",
